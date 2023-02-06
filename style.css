@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/006/459/053/small/minimalist-abstract-purple-gradient-background-shape-with-light-effect-for-text-and-message-artwork-design-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+    word-spacing: 4px;
+    margin: 3rem 0;
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+}
+table{
+    width: 80%;
+    text-align: center;
+    border-color: black;
+}
+table tr th{
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 0.3rem 0;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+}
+table tr td{
+    padding: 0.5rem 0;
+    color: white;
+    background-color: red;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.thankYou{
+    font-size: 2rem;
+    font-weight: 900;
+    color: red;
+    background-color: white;
+}
